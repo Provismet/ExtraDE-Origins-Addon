@@ -37,7 +37,7 @@ dependencies {
 
 	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
 	
-	modImplementation "com.github.provismet:Extra-Damage-Enchantments:1.19-SNAPSHOT"
+	modImplementation "com.github.provismet:Extra-Damage-Enchantments:1.0.0"
 }
 
 processResources {
