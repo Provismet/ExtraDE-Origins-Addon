@@ -1,9 +1,17 @@
-# Fabric Example Mod
+# ExtraDE Origins Addon
 
-## Setup
+## Description
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+This addon modifies the Origins [entity group](https://origins.readthedocs.io/en/latest/types/power_types/entity_group/) power to include the groups defined by ExtraDE.
 
-## License
+This addon depends on:
+- [Extra Damage Enchantments](https://github.com/Provismet/Extra-Damage-Enchantments)
+- [Origins](https://github.com/apace100/origins-fabric)
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Usage
+To apply these one of these groups to your origin, create a `origins:entity_group` power and set the "group" value to one of:
+- humanoid
+- outerworldly
+- arcane
+- fungifloral
+- beastly
