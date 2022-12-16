@@ -36,6 +36,8 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
+	
+	modImplementation "com.github.provismet:Extra-Damage-Enchantments:1.19-SNAPSHOT"
 }
 
 processResources {
