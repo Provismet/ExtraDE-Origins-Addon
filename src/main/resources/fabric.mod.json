@@ -24,7 +24,7 @@
     ]
   },
   "mixins": [
-    "extrade-origins-addon.mixins.json"
+    
   ],
 
   "depends": {
