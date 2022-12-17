@@ -9,10 +9,12 @@
     "Provismet"
   ],
   "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/extrade-origins-addon",
+    "issues": "https://github.com/Provismet/ExtraDE-Origins-Addon/issues",
     "sources": "https://github.com/Provismet/ExtraDE-Origins-Addon"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/extrade-origins-addon/icon.png",
 
   "environment": "*",
@@ -31,12 +33,12 @@
     "minecraft": "~1.19",
     "java": ">=17",
     "origins": "*",
-    "extra-damage-enchants": "*"
+    "extra-damage-enchantments": "*"
   },
 
   "custom": {
     "modmenu": {
-      "parent": "extra-damage-enchants"
+      "parent": "extra-damage-enchantments"
     }
   }
 }
