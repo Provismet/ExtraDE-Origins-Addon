@@ -2,7 +2,7 @@ package com.provismet.extrade_oa;
 
 import com.google.common.collect.HashBiMap;
 import com.google.common.collect.ImmutableMap;
-import com.provismet.extradamageenchants.group.ExtraGroup;
+import com.provismet.extradamageenchantments.group.ExtraGroup;
 
 import io.github.apace100.calio.data.SerializableDataType;
 import net.minecraft.entity.EntityGroup;
