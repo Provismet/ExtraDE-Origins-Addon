@@ -1,17 +1,17 @@
 # ExtraDE Origins Addon
+This Origins addon allows you to grant an Origin one of the entity groups defined by [Extra Damage Enchantments](https://github.com/Provismet/Extra-Damage-Enchantments).  
 
-## Description
+## Powers
+This mod creates a new power type `extrade:entity_group` that works identically to the standard `origins:entity_group` power type, but with additional options.  
+Concrete power implementations are already provided by the mod, to use them add one of these to your origin:
+- `extrade:humanoid`
+- `extrade:outerworldly`
+- `extrade:arcane`
+- `extrade:fungifloral`
+- `extrade:beastly`
 
-This addon modifies the Origins [entity group](https://origins.readthedocs.io/en/latest/types/power_types/entity_group/) power to include the groups defined by ExtraDE.
+Check the [wiki](https://github.com/Provismet/ExtraDE-Origins-Addon/wiki) for more information if needed.
 
-This addon depends on:
+## Dependencies
 - [Extra Damage Enchantments](https://github.com/Provismet/Extra-Damage-Enchantments)
 - [Origins](https://github.com/apace100/origins-fabric)
-
-## Usage
-To apply these one of these groups to your origin, create a `origins:entity_group` power and set the "group" value to one of:
-- humanoid
-- outerworldly
-- arcane
-- fungifloral
-- beastly
