@@ -15,6 +15,7 @@ public class SetExtraEntityGroup extends SetEntityGroupPower {
         super(type, entity, group);
     }
 
+    @SuppressWarnings("rawtypes")
     public static PowerFactory createFactory () {
         return new PowerFactory<>(ExtraDE_OA.powerID("entity_group"),
         new SerializableData()

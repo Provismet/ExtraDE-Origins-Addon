@@ -2,7 +2,7 @@ package com.provismet.extrade_oa.powers;
 
 import io.github.apace100.apoli.power.factory.PowerFactory;
 import io.github.apace100.apoli.registry.ApoliRegistries;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Register;
 
 public class PowerFactories {
     public static void register () {

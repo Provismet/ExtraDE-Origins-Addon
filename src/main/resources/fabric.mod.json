@@ -3,7 +3,7 @@
   "id": "extrade-origins-addon",
   "version": "${version}",
 
-  "name": "Origins Addon",
+  "name": "ExtraDE Origins Addon",
   "description": "Allows the entity groups from ExtraDE to be used in Origins powers.",
   "authors": [
     "Provismet"
@@ -30,7 +30,7 @@
   "depends": {
     "fabricloader": ">=0.14.10",
     "fabric-api": "*",
-    "minecraft": "~1.19",
+    "minecraft": ">=1.19.3",
     "java": ">=17",
     "origins": "*",
     "extra-damage-enchantments": "*"
