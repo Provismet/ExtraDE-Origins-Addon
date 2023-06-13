@@ -9,7 +9,7 @@
     "Provismet"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/extrade-origins-addon",
+    "homepage": "https://github.com/Provismet/ExtraDE-Origins-Addon",
     "issues": "https://github.com/Provismet/ExtraDE-Origins-Addon/issues",
     "sources": "https://github.com/Provismet/ExtraDE-Origins-Addon"
   },
@@ -30,7 +30,7 @@
   "depends": {
     "fabricloader": ">=0.14.10",
     "fabric-api": "*",
-    "minecraft": ">=1.19.3",
+    "minecraft": "1.19.4",
     "java": ">=17",
     "origins": "*",
     "extra-damage-enchantments": "*"
@@ -38,7 +38,10 @@
 
   "custom": {
     "modmenu": {
-      "parent": "extra-damage-enchantments"
+      "parent": "extra-damage-enchantments",
+      "links": {
+        "wiki.extrade.oa_wiki": "https://github.com/Provismet/ExtraDE-Origins-Addon/wiki"
+      }
     }
   }
 }
