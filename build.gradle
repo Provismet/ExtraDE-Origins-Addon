@@ -41,6 +41,7 @@ repositories {
     maven {
         url "https://maven.terraformersmc.com/"
     }
+    mavenLocal()
 }
 
 dependencies {
@@ -58,7 +59,6 @@ dependencies {
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
 
 	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
-	//modImplementation("com.jamieswhiteshirt:reach-entity-attributes:${project.reach_version}")
 	modImplementation "com.github.provismet:Extra-Damage-Enchantments:${project.extrade_version}"
 }
 
@@ -98,9 +98,6 @@ publishing {
 
 	// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
 	repositories {
-		// Add repositories to publish to here.
-		// Notice: This block does NOT have the same function as the block in the top level.
-		// The repositories here will be used for publishing your artifact, not for
-		// retrieving dependencies.
+		mavenLocal()
 	}
 }
