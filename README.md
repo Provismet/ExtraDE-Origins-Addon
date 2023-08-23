@@ -1,4 +1,7 @@
 # ExtraDE Origins Addon
+[![Image](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com/Provismet/ExtraDE-Origins-Addon/blob/1.20/LICENSE)
+![Image](https://img.shields.io/badge/environment-both-4caf50?style=flat-square)
+![Image](https://img.shields.io/badge/mod%20loader-fabric/quilt-d64541?style=flat-square)  
 This Origins addon allows you to grant an Origin one of the entity groups defined by [Extra Damage Enchantments](https://github.com/Provismet/Extra-Damage-Enchantments).  
 
 ## Powers
