@@ -1,4 +1,10 @@
 {
+    "power.extrade.default.name": "Default",
+    "power.extrade.aquatic.name": "Aquatic",
+    "power.extrade.arthropod.name": "Arthropod",
+    "power.extrade.illager.name": "Illager",
+    "power.extrade.undead.name": "Undead",
+
     "power.extrade.humanoid.name": "Humanoid",
     "power.extrade.outerworldly.name": "Outerworldly",
     "power.extrade.arcane.name": "Arcane",
