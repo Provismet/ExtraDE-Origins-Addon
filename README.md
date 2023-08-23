@@ -10,8 +10,22 @@ Concrete power implementations are already provided by the mod, to use them add 
 - `extrade:fungifloral`
 - `extrade:beastly`
 
+### Vanilla Groups
+ExtraDE Origins addon also adds concrete implementations to use any vanilla entity group.
+- `extrade:default`
+- `extrade:aquatic`
+- `extrade:arthropod`
+- `extrade:illager`
+- `extrade:undead`
+
 Check the [wiki](https://github.com/Provismet/ExtraDE-Origins-Addon/wiki) for more information if needed.
 
 ## Dependencies
 - [Extra Damage Enchantments](https://github.com/Provismet/Extra-Damage-Enchantments)
 - [Origins](https://github.com/apace100/origins-fabric)
+
+## Download Links
+- [Modrinth](https://modrinth.com/mod/extrade-origins-addon)
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/extrade-origins-addon)
+
+Use these links to better support the mod.
