@@ -4,6 +4,11 @@
 ![Image](https://img.shields.io/badge/mod%20loader-fabric/quilt-d64541?style=flat-square)  
 This Origins addon allows you to grant an Origin one of the entity groups defined by [Extra Damage Enchantments](https://github.com/Provismet/Extra-Damage-Enchantments).  
 
+Note: With the removal of entity groups in Minecraft 1.21 and the introduction of a new entity type tag in Origins/Apoli, this mod is likely to not
+be useful in the future and have its power JSONs absorbed into the baseline Extra Damage Enchantments mod.  
+ExtraDEOA directly depends on Origins, whereas ExtraDE is more stable and standalone. ExtraDEOA will stay around for now until Origins 1.13 fully releases
+and a decision for how to handle it going forward can be made.
+
 ## Powers
 This mod creates a new power type `extrade:entity_group` that works identically to the standard `origins:entity_group` power type, but with additional options.  
 Concrete power implementations are already provided by the mod, to use them add one of these to your origin:
